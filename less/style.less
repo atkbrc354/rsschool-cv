@@ -129,29 +129,77 @@ body {
 .container {
   max-width: 1200px;
   margin: auto;
-  
 }
 
 .wrapper {
   max-width: 900px;
   margin: 0 auto;
-  
 }
 
 header.header {
+  .container {
+    .wrapper {
+      nav {
+        ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          li {
+            margin-top: 25px;
+            padding-left: 25px;
+            a {
+              color: #000;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+main {
+  section.info {
+    margin-bottom: 50px;
     .container {
       .wrapper {
-        nav {
-          ul {
+        .info_photo {
+          margin-top: 50px;
+          display: block;
+          h1.name {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 20px;
+          }
+          img.Rinat {
             display: flex;
-            justify-content: center;
-            align-items: center;
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+  section.skills {
+    margin-bottom: 50px;
+    .container {
+      .wrapper {
+        .skills_my {
+          h2.skills-title {
+            font-size: 45px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: rgb(75, 65, 54);
+          }
+          ol.skills_list {
+            text-align: center;
             li {
-              margin-top: 25px;
-              padding-left: 25px;
-              a {
+              font-size: 30px;
+              color: slateblue;
+              span {
                 color: #000;
-                text-decoration: none;
               }
             }
           }
@@ -159,29 +207,4 @@ header.header {
       }
     }
   }
-
-  main {
-    section.info {
-        margin-bottom: 50px;
-        .container {
-          .wrapper {
-            .info_photo {
-              margin-top: 50px;
-              display: block;
-              h1.name {
-                text-align: center;
-                font-size: 40px;
-                margin-bottom: 20px;
-              }
-              img.Rinat {
-                display: flex;
-                margin: 0 auto;
-                width: 200px;
-                height: 200px;
-                border-radius: 50%;
-              }
-            }
-          }
-        }
-      }
-  }
+}
