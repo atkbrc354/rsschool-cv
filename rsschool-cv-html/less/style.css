@@ -168,3 +168,22 @@ main section.info .container .wrapper .info_photo img.Rinat {
   height: 200px;
   border-radius: 50%;
 }
+main section.skills {
+  margin-bottom: 50px;
+}
+main section.skills .container .wrapper .skills_my h2.skills-title {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4b4136;
+}
+main section.skills .container .wrapper .skills_my ol.skills_list {
+  text-align: center;
+}
+main section.skills .container .wrapper .skills_my ol.skills_list li {
+  font-size: 30px;
+  color: slateblue;
+}
+main section.skills .container .wrapper .skills_my ol.skills_list li span {
+  color: #000;
+}
