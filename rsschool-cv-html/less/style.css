@@ -208,3 +208,29 @@ main section.Contact .container .wrapper .Contact_content a.git-hub h2 {
 main section.Contact .container .wrapper .Contact_content ul li {
   font-size: 19px;
 }
+main section.About-me {
+  margin-bottom: 50px;
+}
+main section.About-me .container .wrapper .About-me_ h2.about-me_title {
+  font-size: 35px;
+  text-align: center;
+}
+main section.About-me .container .wrapper .About-me_ p.about-me_description {
+  font-size: 20px;
+  text-align: center;
+}
+main section.projects {
+  margin-bottom: 50px;
+}
+main section.projects .container .wrapper .project h2.project-title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+main section.projects .container .wrapper .project a img.Griboedov {
+  margin-bottom: 35px;
+  width: 900px;
+}
+main section.projects .container .wrapper .project a img.Miberger {
+  width: 900px;
+}
