@@ -274,3 +274,26 @@ main section.English .container .wrapper .English-Beginner a.English {
   text-align: center;
   color: #000;
 }
+footer.footer {
+  background: #804646;
+}
+footer.footer .container .wrapper .footer-img {
+  display: flex;
+  justify-content: space-between;
+}
+footer.footer .container .wrapper .footer-img a img.img-footer-school {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin: 0 auto;
+}
+footer.footer .container .wrapper .footer-img a.github-footer {
+  margin-top: 40px;
+  color: #000;
+  font-size: 20px;
+  display: block;
+}
+footer.footer .container .wrapper .footer-img p.footer-description {
+  margin-top: 40px;
+  font-size: 15px;
+}
