@@ -234,3 +234,43 @@ main section.projects .container .wrapper .project a img.Griboedov {
 main section.projects .container .wrapper .project a img.Miberger {
   width: 900px;
 }
+main section.code-example {
+  margin-bottom: 50px;
+}
+main section.code-example .container .wrapper h2.code-example_title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+main section.code-example .container .wrapper .code-example_block {
+  background: #000;
+  width: 900px;
+  height: 300px;
+  border-radius: 12px;
+}
+main section.code-example .container .wrapper .code-example_block code.code-example_text {
+  color: antiquewhite;
+  font-size: 20px;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 130px;
+}
+main section.English {
+  margin-bottom: 50px;
+}
+main section.English .container .wrapper .English-Beginner h2.English-Beginner_title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+main section.English .container .wrapper .English-Beginner p.English-Beginner_description {
+  font-style: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+main section.English .container .wrapper .English-Beginner a.English {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
