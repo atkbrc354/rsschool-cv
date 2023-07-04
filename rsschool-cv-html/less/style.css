@@ -187,3 +187,24 @@ main section.skills .container .wrapper .skills_my ol.skills_list li {
 main section.skills .container .wrapper .skills_my ol.skills_list li span {
   color: #000;
 }
+main section.Contact {
+  margin-bottom: 50px;
+}
+main section.Contact .container .wrapper .Contact_content {
+  text-align: center;
+}
+main section.Contact .container .wrapper .Contact_content h2.Contact-title {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+main section.Contact .container .wrapper .Contact_content a.git-hub {
+  display: block;
+  color: #24292f;
+  padding-bottom: 10px;
+}
+main section.Contact .container .wrapper .Contact_content a.git-hub h2 {
+  font-size: 25px;
+}
+main section.Contact .container .wrapper .Contact_content ul li {
+  font-size: 19px;
+}
