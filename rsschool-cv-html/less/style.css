@@ -136,3 +136,164 @@ html {
   max-width: 900px;
   margin: 0 auto;
 }
+header.header .container .wrapper nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header.header .container .wrapper nav ul li {
+  margin-top: 25px;
+  padding-left: 25px;
+}
+header.header .container .wrapper nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+main section.info {
+  margin-bottom: 50px;
+}
+main section.info .container .wrapper .info_photo {
+  margin-top: 50px;
+  display: block;
+}
+main section.info .container .wrapper .info_photo h1.name {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+main section.info .container .wrapper .info_photo img.Rinat {
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+main section.skills {
+  margin-bottom: 50px;
+}
+main section.skills .container .wrapper .skills_my h2.skills-title {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4b4136;
+}
+main section.skills .container .wrapper .skills_my ol.skills_list {
+  text-align: center;
+}
+main section.skills .container .wrapper .skills_my ol.skills_list li {
+  font-size: 30px;
+  color: slateblue;
+}
+main section.skills .container .wrapper .skills_my ol.skills_list li span {
+  color: #000;
+}
+main section.Contact {
+  margin-bottom: 50px;
+}
+main section.Contact .container .wrapper .Contact_content {
+  text-align: center;
+}
+main section.Contact .container .wrapper .Contact_content h2.Contact-title {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+main section.Contact .container .wrapper .Contact_content a.git-hub {
+  display: block;
+  color: #24292f;
+  padding-bottom: 10px;
+}
+main section.Contact .container .wrapper .Contact_content a.git-hub h2 {
+  font-size: 25px;
+}
+main section.Contact .container .wrapper .Contact_content ul li {
+  font-size: 19px;
+}
+main section.About-me {
+  margin-bottom: 50px;
+}
+main section.About-me .container .wrapper .About-me_ h2.about-me_title {
+  font-size: 35px;
+  text-align: center;
+}
+main section.About-me .container .wrapper .About-me_ p.about-me_description {
+  font-size: 20px;
+  text-align: center;
+}
+main section.projects {
+  margin-bottom: 50px;
+}
+main section.projects .container .wrapper .project h2.project-title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+main section.projects .container .wrapper .project a img.Griboedov {
+  margin-bottom: 35px;
+  width: 900px;
+}
+main section.projects .container .wrapper .project a img.Miberger {
+  width: 900px;
+}
+main section.code-example {
+  margin-bottom: 50px;
+}
+main section.code-example .container .wrapper h2.code-example_title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+main section.code-example .container .wrapper .code-example_block {
+  background: #000;
+  width: 900px;
+  height: 300px;
+  border-radius: 12px;
+}
+main section.code-example .container .wrapper .code-example_block code.code-example_text {
+  color: antiquewhite;
+  font-size: 20px;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 130px;
+}
+main section.English {
+  margin-bottom: 50px;
+}
+main section.English .container .wrapper .English-Beginner h2.English-Beginner_title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+main section.English .container .wrapper .English-Beginner p.English-Beginner_description {
+  font-style: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+main section.English .container .wrapper .English-Beginner a.English {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+footer.footer {
+  background: #804646;
+}
+footer.footer .container .wrapper .footer-img {
+  display: flex;
+  justify-content: space-between;
+}
+footer.footer .container .wrapper .footer-img a img.img-footer-school {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin: 0 auto;
+}
+footer.footer .container .wrapper .footer-img a.github-footer {
+  margin-top: 40px;
+  color: #000;
+  font-size: 20px;
+  display: block;
+}
+footer.footer .container .wrapper .footer-img p.footer-description {
+  margin-top: 40px;
+  font-size: 15px;
+}
